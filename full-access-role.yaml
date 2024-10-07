@@ -1,0 +1,10 @@
+#kubectl create namespace external-namespace
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  namespace: external-namespace
+  name: full-access-role
+rules:
+- apiGroups: [""]
+  verbs: ["*"]
+  resources: ["*"]
