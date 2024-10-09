@@ -2,7 +2,8 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: internal-config
-  namespace: external-namespace
+  namespace: internal-namespace
 data:
-  USERNAME: "hoangpv1"
+  EMAIL: "admin@gmail.com"
   PASSWORD: "KMA@kma123"
+  ENDPOINT: "/api/v1/jwt-token"
