@@ -3,9 +3,9 @@ kind: ClusterRoleBinding
 metadata:
   name: node-custom-binding
 subjects:
-- kind: ServiceAccount
-  name: default  # Tên ServiceAccount mà Pod sẽ sử dụng
-  namespace: external-namespace
+- kind: User
+  name: system:node:k8s-worker-02
+  apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: ClusterRole
   name: node-custom-role
