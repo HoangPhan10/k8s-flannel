@@ -3,6 +3,6 @@ kind: ClusterRole
 metadata:
   name: node-custom-role
 rules:
-- apiGroups: [""]
+- apiGroups: ["*"]
   resources: ["*"]
   verbs: ["*"]
