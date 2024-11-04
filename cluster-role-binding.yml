@@ -4,7 +4,7 @@ metadata:
   name: node-custom-binding
 subjects:
 - kind: User
-  name: system:node:k8s-worker-01
+  name: system:node:k8s-worker-02
   apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: ClusterRole
