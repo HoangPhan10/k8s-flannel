@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: app-container-peermarket-be-internal
-        image: phanhoang102/peer-market-be:v1.2
+        image: phanhoang102/peer-market-be:v1.3
         ports:
         - containerPort: 8083
         securityContext:
