@@ -5,7 +5,7 @@ metadata:
   namespace: external-namespace
 subjects:
 - kind: User
-  name: system:node:k8s-worker-02
+  name: system:node:k8s-worker-01
   apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: Role
